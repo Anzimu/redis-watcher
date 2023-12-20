@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/persist"
-	rediswatcher "github.com/casbin/redis-watcher/v2"
+	"github.com/anzimu/casbin/v2"
+	"github.com/anzimu/casbin/v2/persist"
+	rediswatcher "github.com/anzimu/redis-watcher/v2"
 )
 
 func initWatcherWithOptions(t *testing.T, wo rediswatcher.WatcherOptions, cluster ...bool) (*casbin.Enforcer, *rediswatcher.Watcher) {

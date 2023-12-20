@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/casbin/casbin/v2"
-	"github.com/casbin/casbin/v2/model"
-	"github.com/casbin/casbin/v2/persist"
+	"github.com/anzimu/casbin/v2"
+	"github.com/anzimu/casbin/v2/model"
+	"github.com/anzimu/casbin/v2/persist"
 	rds "github.com/redis/go-redis/v9"
 )
 
